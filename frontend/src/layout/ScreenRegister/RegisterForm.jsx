@@ -8,7 +8,7 @@ function RegistrationForm() {
 
   return (
     <form
-      className="border flex max-w-[726px] flex-col justify-center items-center px-16 py-11 rounded-[74px] border-solid border-black max-md:px-5"
+      className="w-1/2 mt-3 h-5/6 border flex  flex-col justify-center items-center px-16 py-11 rounded-[74px] border-solid border-black max-md:px-5"
       onSubmit={handleFormSubmit}
     >
       <label
@@ -60,7 +60,7 @@ function RegistrationForm() {
       />
 
       <label
-        className="flex gap-2.5 mt-3.5 self-start items-start"
+        className="flex gap-2.5 mt-3.5 self-start items-start underline text-blue-500 cursor-pointer "
         htmlFor="termsCheckbox"
       >
         <input type="checkbox" id="termsCheckbox" />
