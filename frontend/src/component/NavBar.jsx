@@ -24,7 +24,7 @@ function CategoryLink() {
 
 function SearchWrapper() {
   return (
-    <div className="search-container flex items-center ">
+    <div className="search-container flex items-center hidden md:block ">
       {/* <div className="search-icon w-7 h-7 rounded-full border-2 border-neutral-700" /> */}
       <input
         type="text"
@@ -37,7 +37,7 @@ function SearchWrapper() {
 
 export default function NavBar() {
   return (
-    <div className="header w-full h-20 flex justify-between items-center p-4 border-b border-solid border-b-gray-600 shadow-sm	shadow-orange-500">
+    <div className="relative header w-full h-20 flex justify-between items-center p-4 border-b border-solid border-b-gray-600 shadow-sm	shadow-orange-500">
       <div className="logo flex items-center">
         <Logo />
       </div>
