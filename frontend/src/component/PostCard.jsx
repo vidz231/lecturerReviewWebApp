@@ -3,8 +3,8 @@ import React from "react";
 export default function PostCard() {
   return (
     <div className="relative bg-zinc-300 bg-opacity-30 flex w-80 md:w-2/4 flex-col items-stretch mt-11 pl-9 pr-11 pt-12 pb-7 rounded-3xl max-md:max-w-full max-md:mt-10 max-md:px-5">
-      <section className="flex justify-between gap-5 mt-1 items-start max-md:max-w-full max-md:flex-wrap">
-        <div className="text-black font-semibold whitespace-nowrap mt-3 text-lg">
+      <section className="flex justify-between gap-5 mt-1 items-start max-md:max-w-full max-md:flex-wrap ">
+        <div className="text-black font-semibold whitespace-nowrap mt-3 text-lg hidden md:block">
           <a href="#">👍🏿</a>
           <br />
           1023
@@ -42,7 +42,7 @@ export default function PostCard() {
           <br />
         </div>
       </section>
-      <div className="flex w-[206px] max-w-full items-stretch justify-between gap-5 ml-20 mt-5 self-start max-md:ml-2.5">
+      <div className="flex w-full h-full max-w-full items-center justify-between gap-5 ml-20 mt-5  max-md:ml-2.5">
         <img
           loading="lazy"
           srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c0bc348d1bed437915b12aebfea190e395b989b54711cc3c518aa5f26c0d195?apiKey=d0da03858a984c898c8110607314683e&"
@@ -59,6 +59,12 @@ export default function PostCard() {
           <div className="text-black text-base font-semibold self-center grow whitespace-nowrap my-auto">
             Report
           </div>
+        </div>
+        <div className="text-black text-base font-semibold self-center grow whitespace-nowrap my-auto">
+          👍🏿
+        </div>
+        <div className="text-black text-base font-semibold self-center grow whitespace-nowrap my-auto">
+          👎🏿
         </div>
       </div>
     </div>
