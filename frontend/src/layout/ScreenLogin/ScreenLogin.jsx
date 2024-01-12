@@ -6,7 +6,7 @@ export default function ScreenLogin() {
   return (
     <>
       <NavBar />
-      <div className="h-full w-full flex justify-center items-center">
+      <div className="h-screen w-full flex justify-center items-center">
         <LoginForm />
       </div>
     </>
